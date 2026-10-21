@@ -1,0 +1,36 @@
+{
+  "scenario": "with_scores",
+  "best_params": {
+    "model__alpha": 1
+  },
+  "cv_r2": 0.8695,
+  "test_mae": 4.183,
+  "test_rmse": 5.368,
+  "test_r2": 0.8816,
+  "comparison": [
+    {
+      "model": "Ridge",
+      "cv_r2_mean": 0.8695,
+      "cv_r2_std": 0.0148,
+      "cv_rmse_mean": 5.3956
+    },
+    {
+      "model": "Linear Regression",
+      "cv_r2_mean": 0.8694,
+      "cv_r2_std": 0.0148,
+      "cv_rmse_mean": 5.3973
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_r2_mean": 0.8509,
+      "cv_r2_std": 0.0187,
+      "cv_rmse_mean": 5.763
+    },
+    {
+      "model": "Random Forest",
+      "cv_r2_mean": 0.8378,
+      "cv_r2_std": 0.0192,
+      "cv_rmse_mean": 6.0102
+    }
+  ]
+}
